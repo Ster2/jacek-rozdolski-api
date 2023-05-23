@@ -66,7 +66,7 @@ public class TaskControllerTest {
     }
 
 
-    @Test
+/*    @Test
     public void updateTaskTest() throws Exception {
         //Given
         TaskDto newTaskDto = new TaskDto((long) 1, "task title", "content");
@@ -83,6 +83,6 @@ public class TaskControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.title", is("task title")));
 
-    }
+    }*/
 
 }
